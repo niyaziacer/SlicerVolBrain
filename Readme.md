@@ -155,10 +155,10 @@ For complete label mapping, see the [volBrain documentation](https://volbrain.ne
 ## Screenshots
 
 ### Main Interface
-![Main Interface](Screenshots/interface.png)
+![Screenshot 1](Screenshots/img1.png)
 
 ### 3D Visualization
-![3D Visualization](Screenshots/3d_visualization.png)
+![Screenshot 2](Screenshots/img2.png)
 
 ### Results Table
 ![Results Table](Screenshots/results_table.png)
