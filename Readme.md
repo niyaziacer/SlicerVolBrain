@@ -156,6 +156,7 @@ For complete label mapping, see the [volBrain documentation](https://volbrain.ne
 
 ### Main Interface
 ![Screenshot 1](Screenshots/img1.png)
+---
 
 ### 3D Visualization
 ![Screenshot 2](Screenshots/img2.png)
