@@ -205,9 +205,6 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 - **3D Slicer Forum**: [discourse.slicer.org](https://discourse.slicer.org)
 - **volBrain Support**: [volbrain.net](https://volbrain.net)
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Acknowledgments
 
