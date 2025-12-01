@@ -155,10 +155,11 @@ For complete label mapping, see the [volBrain documentation](https://volbrain.ne
 ## Screenshots
 
 ### Main Interface
-![Main Interface](Screenshots/interface.png)
+![Screenshot 1](Screenshots/img1.png)
+---
 
 ### 3D Visualization
-![3D Visualization](Screenshots/3d_visualization.png)
+![Screenshot 2](Screenshots/img2.png)
 
 ### Results Table
 ![Results Table](Screenshots/results_table.png)
@@ -204,9 +205,6 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 - **3D Slicer Forum**: [discourse.slicer.org](https://discourse.slicer.org)
 - **volBrain Support**: [volbrain.net](https://volbrain.net)
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Acknowledgments
 
