@@ -44,23 +44,23 @@ class VolBrainVolumeCalculatorWidget(ScriptedLoadableModuleWidget, VTKObservatio
         inputsFormLayout = qt.QFormLayout(inputsCollapsibleButton)
         
         self.structuresSelector = ctk.ctkPathLineEdit()
-        self.structuresSelector.filters = ctk.ctkPathLineEdit.Files
-        self.structuresSelector.nameFilters = ["NIfTI (*.nii *.nii.gz)"]
+        self.structuresSelector.setFilters(ctk.ctkPathLineEdit.Files)
+        self.structuresSelector.setNameFilters(["NIfTI (*.nii *.nii.gz)"]
         inputsFormLayout.addRow("Structures:", self.structuresSelector)
         
         self.tissuesSelector = ctk.ctkPathLineEdit()
-        self.tissuesSelector.filters = ctk.ctkPathLineEdit.Files
-        self.tissuesSelector.nameFilters = ["NIfTI (*.nii *.nii.gz)"]
+        self.tissuesSelector.setFilters(ctk.ctkPathLineEdit.Files)
+        self.tissuesSelector.setNameFilters(["NIfTI (*.nii *.nii.gz)"]
         inputsFormLayout.addRow("Tissues:", self.tissuesSelector)
         
         self.lobesSelector = ctk.ctkPathLineEdit()
-        self.lobesSelector.filters = ctk.ctkPathLineEdit.Files
-        self.lobesSelector.nameFilters = ["NIfTI (*.nii *.nii.gz)"]
+        self.lobesSelector.setFilters(ctk.ctkPathLineEdit.Files)
+        self.lobesSelector.setNameFilters(["NIfTI (*.nii *.nii.gz)"]
         inputsFormLayout.addRow("Lobes:", self.lobesSelector)
         
         self.macroSelector = ctk.ctkPathLineEdit()
-        self.macroSelector.filters = ctk.ctkPathLineEdit.Files
-        self.macroSelector.nameFilters = ["NIfTI (*.nii *.nii.gz)"]
+        self.macroSelector.setFilters(ctk.ctkPathLineEdit.Files)
+        self.macroSelector.setNameFilters(["NIfTI (*.nii *.nii.gz)"]
         inputsFormLayout.addRow("Macrostructures:", self.macroSelector)
         
         self.quickLoadButton = qt.QPushButton("Klasorden Otomatik Yukle")
