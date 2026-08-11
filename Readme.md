@@ -39,17 +39,17 @@
 
 ## Installation
 
-### Option 1: Extension Manager (Recommended - Coming Soon)
+### Option 1: Extension Manager (Recommended)
 1. Open 3D Slicer
 2. Go to **View → Extension Manager**
-3. Search for "**VolBrain**"
+3. Search for "**volbrain**"
 4. Click **Install**
 5. Restart Slicer
 
 ### Option 2: Manual Installation
 1. Download this repository:
 ```bash
-   git clone https://github.com/YOUR_USERNAME/SlicerVolBrain.git
+   git clone https://github.com/niyaziacer/SlicerVolBrain.git
 ```
 
 2. In 3D Slicer:
@@ -155,24 +155,20 @@ For complete label mapping, see the [volBrain documentation](https://volbrain.ne
 ## Screenshots
 
 ### Main Interface
-![Screenshot 1](Screenshots/img1.png)
----
+![Main Interface](Screenshots/interface.png)
 
 ### 3D Visualization
-![Screenshot 2](Screenshots/img2.png)
-
-### Results Table
-![Results Table](Screenshots/results_table.png)
+![3D Visualization](Screenshots/3d_visualization.png)
 
 ## Citation
 
 If you use this extension in your research, please cite:
 ```bibtex
-@software{slicervolbrain2024,
+@software{slicervolbrain2025,
   title={SlicerVolBrain: 3D Slicer Extension for volBrain Analysis},
-  author={Your Name},
-  year={2024},
-  url={https://github.com/YOUR_USERNAME/SlicerVolBrain}
+  author={Acer, Niyazi},
+  year={2025},
+  url={https://github.com/niyaziacer/SlicerVolBrain}
 }
 ```
 
@@ -201,10 +197,14 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 ## Support
 
-- **Issues**: [GitHub Issues](https://github.com/YOUR_USERNAME/SlicerVolBrain/issues)
+- **Issues**: [GitHub Issues](https://github.com/niyaziacer/SlicerVolBrain/issues)
 - **3D Slicer Forum**: [discourse.slicer.org](https://discourse.slicer.org)
 - **volBrain Support**: [volbrain.net](https://volbrain.net)
 
+
+## Developer
+
+Prof. Dr. Niyazi Acer (Retired, Erciyes University)
 
 ## Acknowledgments
 
@@ -216,5 +216,5 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 - **3D Slicer**: https://www.slicer.org/
 - **volBrain**: https://volbrain.net/
-- **Extension Catalog**: Coming soon
-- **Documentation**: [Wiki](https://github.com/YOUR_USERNAME/SlicerVolBrain/wiki)
+- **Extension Catalog**: available in 3D Slicer's built-in Extension Manager (search "volbrain"), listed at [Slicer/ExtensionsIndex](https://github.com/Slicer/ExtensionsIndex/blob/main/volbrain.json)
+- **Documentation**: this README (no separate wiki yet)

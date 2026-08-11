@@ -6,7 +6,7 @@ project(volbrain)
 # Extension meta-information
 set(EXTENSION_HOMEPAGE "https://github.com/niyaziacer/SlicerVolBrain")
 set(EXTENSION_CATEGORY "Quantification")
-set(EXTENSION_CONTRIBUTORS "Niyazi Acer (Gaziantep University)")
+set(EXTENSION_CONTRIBUTORS "Niyazi Acer (Erciyes University, Retired)")
 set(EXTENSION_DESCRIPTION "3D Slicer extension for comprehensive brain structure volume calculation and 3D visualization from volBrain segmentation outputs. Supports 108+ cortical regions, tissue classification, lobes, and macrostructures.")
 set(EXTENSION_ICONURL "https://raw.githubusercontent.com/niyaziacer/SlicerVolBrain/main/Resources/Icons/SlicerVolBrain.png")
 set(EXTENSION_SCREENSHOTURLS "https://raw.githubusercontent.com/niyaziacer/SlicerVolBrain/main/Screenshots/interface.png https://raw.githubusercontent.com/niyaziacer/SlicerVolBrain/main/Screenshots/3d_visualization.png")
